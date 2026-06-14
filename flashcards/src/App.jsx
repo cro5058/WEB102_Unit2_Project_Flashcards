@@ -6,7 +6,6 @@ import cardData from './card_data.jsx';
 
 const App = () => {
 
-
   // Return the contents of the page
   return (
     <div className='App'>
@@ -19,6 +18,7 @@ const App = () => {
         <h2>Number of cards: { cardData.length }</h2>
       </div>
 
+      {/* Card interface: Shows a card and the button to go to the next card */}
       <CardInterface />
 
     </div>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import cardData from '../card_data.jsx';
 
+
 const CardInterface = () => {
   // Set the card to be the starter card initially
   const [content, setContent] = useState({question: "Start!", answer: "Press the 'next' button to start!"});
