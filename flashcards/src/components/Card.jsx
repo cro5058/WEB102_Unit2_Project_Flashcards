@@ -1,4 +1,8 @@
+
+
 const Card = (props) => {
+
+
   if (!props.flipped) {
     return (
       // If not flipped, show the front, else, show the back
