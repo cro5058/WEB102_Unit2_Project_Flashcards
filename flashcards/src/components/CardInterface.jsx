@@ -17,14 +17,14 @@ const CardInterface = () => {
   };
 
   const unflippedCard = (
-    <div className="card" onClick={() => setFlipped(!flipped)}>
+    <div className={"card" + " " + content.level} onClick={() => setFlipped(!flipped)}>
       {content.image != null ? <img src={content.image} /> : <></> }
       <h1>{content.question}</h1>
     </div>
   );
 
   const flippedCard = (
-    <div className="card flipped" onClick={() => setFlipped(!flipped)}>
+    <div className={"card flipped" + " " + content.level} onClick={() => setFlipped(!flipped)}>
       {content.image != null ? <img src={content.image} /> : <></> }
       <h1>{content.answer}</h1>
     </div>

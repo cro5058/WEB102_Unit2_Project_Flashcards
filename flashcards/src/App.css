@@ -50,6 +50,14 @@ html {
   object-fit: contain;
 }
 
-/* .card.flipped {
-  background-color: #eef4ff;
-} */
+.card.easy {
+  background-image: linear-gradient(#fdfdfd, #87b716);
+}
+
+.card.medium {
+  background-image: linear-gradient(#fdfdfd, yellow);
+}
+
+.card.hard {
+  background-image: linear-gradient(#fdfdfd, #f03a17);
+}
