@@ -15,7 +15,6 @@ const cardData = [
     { question: "carrot", answer: "zanahoria", image: "/carrot.svg" },
     { question: "orange", answer: "naranja", image: "/orange.svg" },
     { question: "strawberry", answer: "fresa", image: "/strawberry.svg" },
-    { question: "beans", answer: "frijoles", image: "/beans.svg" },
     { question: "butter", answer: "mantequilla", image: "/butter.svg" },
     { question: "sugar", answer: "azúcar", image: "/sugar.svg" },
     { question: "coffee", answer: "café", image: "/coffee.svg" },
