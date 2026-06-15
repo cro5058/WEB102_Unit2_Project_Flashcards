@@ -22,9 +22,11 @@ html {
   padding: 1.5rem;
   box-sizing: border-box;
 
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
   text-align: center;
 
   border: 1px solid #d0d0d0;
@@ -43,8 +45,9 @@ html {
 }
 
 .card img {
-  width: 50%;
-  height: 50%;
+  max-width: 60%;
+  max-height: 60%;
+  object-fit: contain;
 }
 
 /* .card.flipped {

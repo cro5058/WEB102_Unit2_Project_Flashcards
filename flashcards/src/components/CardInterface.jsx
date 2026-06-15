@@ -4,7 +4,7 @@ import cardData from '../card_data.jsx';
 
 const CardInterface = () => {
   // Set the card to be the starter card initially
-  const [content, setContent] = useState({question: "Start!", answer: "Press the 'next' button to start!", image: null});
+  const [content, setContent] = useState({question: "Start!", answer: "Press the 'next' button to start!", image: '../../public/start.svg'});
 
   // Determine whether a card is flipped or not
   const [flipped, setFlipped] = useState(false);
@@ -18,14 +18,14 @@ const CardInterface = () => {
 
   const unflippedCard = (
     <div className="card" onClick={() => setFlipped(!flipped)}>
-      <img src={content.image} />
+      {content.image != null ? <img src={content.image} /> : <></> }
       <h1>{content.question}</h1>
     </div>
   );
 
   const flippedCard = (
     <div className="card flipped" onClick={() => setFlipped(!flipped)}>
-      <img src={content.image} />
+      {content.image != null ? <img src={content.image} /> : <></> }
       <h1>{content.answer}</h1>
     </div>
   );
