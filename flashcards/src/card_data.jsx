@@ -18,6 +18,7 @@ const cardData = [
     { question: "butter", answer: "mantequilla", image: "/butter.svg" },
     { question: "sugar", answer: "azúcar", image: "/sugar.svg" },
     { question: "coffee", answer: "café", image: "/coffee.svg" },
+    { question: "kiwi", answer: "kiwi", image: "/kiwi.svg" },
 ];
 
 export default cardData;
