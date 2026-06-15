@@ -4,11 +4,15 @@ import CardInterface from './components/CardInterface.jsx';
 import cardData from './card_data.jsx';
 
 
+
 const App = () => {
 
   // Return the contents of the page
   return (
     <div className='App'>
+
+      {/* Decorative image band that fades out at the bottom */}
+      <div className='banner' />
 
       {/* Header for the app */}
       <div className='header'>

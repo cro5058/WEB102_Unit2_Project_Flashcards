@@ -1,0 +1,15 @@
+<!-- beans.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- a small pile of kidney beans -->
+  <g stroke="#000000" stroke-width="4" stroke-linejoin="round">
+    <path d="M28 64 C18 60 18 44 30 42 C40 41 44 50 40 58 C37 65 34 66 28 64 Z" fill="#8b3a2b"/>
+    <path d="M58 70 C46 68 44 52 56 48 C67 45 73 54 68 63 C65 69 64 71 58 70 Z" fill="#a0492f"/>
+    <path d="M44 50 C34 47 34 31 46 29 C57 27 62 37 57 45 C54 51 50 52 44 50 Z" fill="#9c4326"/>
+  </g>
+  <!-- subtle hilum (the bean's "eye") -->
+  <g fill="none" stroke="#3d1f12" stroke-width="1.6" stroke-linecap="round">
+    <path d="M30 56 C33 54 36 55 37 52"/>
+    <path d="M58 60 C61 57 64 58 66 55"/>
+    <path d="M46 40 C49 37 52 38 54 35"/>
+  </g>
+</svg>
